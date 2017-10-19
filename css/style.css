@@ -18,16 +18,6 @@ body{
     background: linear-gradient(to left, #3A3C58 0%, #0C262E 100%);
     max-width: 100%;
 }
-.my-title{
-    font-size: 11pt;
-    text-align: center;
-    margin-top: 5%;
-    background: -webkit-linear-gradient(left, #2F9AB4, #8873FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight:100; 
-}
-
 .foguete-moving{
     animation: moving 5s ease-in-out infinite;
     max-width: 200px;
