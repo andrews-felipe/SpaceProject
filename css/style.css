@@ -1,23 +1,31 @@
-  
-@keyframes moving {
-    from{transform: translateY(500px) }
-    to{transform: translateY(-800px)}
-}
-
-@keyframes flying {
-    from{transform: translateY(100px)}
-    to{transform: translateY(80px)}
-}
-
-@keyframes rotation {
-    from{transform: rotate(0)}
-    to{transform: rotate(5turn)}
-}
-
 body{
     background: linear-gradient(to left, #3A3C58 0%, #0C262E 100%);
     max-width: 100%;
 }
+.my-title{
+
+    line-height: 67px;
+    font-size: 60pt;
+    font-family: fantasy;
+    position: absolute;
+    margin-top: 18%;
+    background: -webkit-linear-gradient(left, #2F9AB4 0%, #8873FF 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+}
+
+.author-text{
+    font-weight: 100;
+    font-size: 15.5pt;
+    position: absolute;
+    margin-top: 53%;
+    background: -webkit-linear-gradient(left, #2F9AB4 0%, #8873FF 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+
 .foguete-moving{
     animation: moving 5s ease-in-out infinite;
     max-width: 200px;
@@ -90,4 +98,19 @@ body{
 }.point11{    
     margin-left: 85%;
     margin-top: 70%;
+}
+
+@keyframes moving {
+    from{transform: translateY(500px) }
+    to{transform: translateY(-800px)}
+}
+
+@keyframes flying {
+    from{transform: translateY(100px)}
+    to{transform: translateY(80px)}
+}
+
+@keyframes rotation {
+    from{transform: rotate(0)}
+    to{transform: rotate(5turn)}
 }
